@@ -1,4 +1,4 @@
-1. Postman API Testing - Restful-booker
+Postman API Testing - Restful-booker
 
 The API testing project using Postman involves testing the RESTful API endpoints provided by the "Restful-booker" resource. This includes creating a Postman collection of API endpoints, writing test scripts using Postman's testing framework to validate responses, and checking for errors, performance, and authentication. The Restful-booker resource provides a set of pre-built API endpoints that allow you to test and validate different aspects of a hotel booking application, such as creating and updating bookings, checking availability, and retrieving booking details. 
 
