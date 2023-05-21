@@ -14,9 +14,6 @@
 <a href="https://github.com/zwaiters/Portfolio/blob/main/Postman%20Collections/Restful-booker.json">Postman - Restful_booker</a>
  
  
-  * [Test cases in Jira](#test-cases-in-jira)
- 
- 
 </details>
 
   
