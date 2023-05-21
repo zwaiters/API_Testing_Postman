@@ -1,0 +1,1336 @@
+{
+	"info": {
+		"_postman_id": "e1fe3071-c802-4079-b25f-048fc3ac919b",
+		"name": "Restful-booker_booking",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Ping HealthCheck",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "73403163-e732-4973-830b-e7c389dcfa29",
+						"exec": [
+							"pm.test(\"Status code is 201\", function () {\r",
+							"    pm.response.to.have.status(201);\r",
+							"});\r",
+							"\r",
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"_postman_id": "5d299709-c0e7-408e-87a6-f2b4a636821a",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "{{url}}/ping"
+			},
+			"response": []
+		},
+		{
+			"name": "GetBooking",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "0e92b4f6-40e4-4485-b8da-e115c0c40d98",
+						"exec": [
+							"pm.test(\"Status code is 404\", function () {\r",
+							"    pm.response.to.have.status(404);\r",
+							"});\r",
+							"pm.test(\"Response time is less than 1200ms\", function () {\r",
+							"    pm.expect(pm.response.responseTime).to.be.below(1200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"_postman_id": "8c79b1a3-cc21-4b90-b348-3f5ebdc25758",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "{{url}}/booking{{e_bookingId.int2}}"
+			},
+			"response": []
+		},
+		{
+			"name": "Negative_1 - GetBooking",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "0e92b4f6-40e4-4485-b8da-e115c0c40d98",
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});\r",
+							"pm.test(\"Response time is less than 1200ms\", function () {\r",
+							"    pm.expect(pm.response.responseTime).to.be.below(1200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"_postman_id": "e15fecf4-49ae-4542-8aea-9c32c07147d3",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "{{url}}/booking{{e_bookingId.int2}}"
+			},
+			"response": []
+		},
+		{
+			"name": "Negative_2 - GetBooking",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "0e92b4f6-40e4-4485-b8da-e115c0c40d98",
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});\r",
+							"pm.test(\"Response time is less than 1200ms\", function () {\r",
+							"    pm.expect(pm.response.responseTime).to.be.below(1200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"_postman_id": "64383954-efd0-426b-bb67-13782afecf44",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "{{url}}/booking{{e_bookingId.int2}}"
+			},
+			"response": []
+		},
+		{
+			"name": "Negative_3 - GetBooking",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "0e92b4f6-40e4-4485-b8da-e115c0c40d98",
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});\r",
+							"pm.test(\"Response time is less than 1200ms\", function () {\r",
+							"    pm.expect(pm.response.responseTime).to.be.below(1200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"_postman_id": "97caf8df-cf03-4692-a520-545fe5a42f93",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "{{url}}/booking{{e_bookingId.int2}}"
+			},
+			"response": []
+		},
+		{
+			"name": "CreateBooking",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "1841338b-90a1-481f-8153-38f0f2160946",
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Response time is less than 1200ms\", function () {\r",
+							"    pm.expect(pm.response.responseTime).to.be.below(1200);\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Set your booking Id\", function () {\r",
+							"\r",
+							"    var responseData = pm.response.json();\r",
+							"    pm.environment.set(\"e_bookingId.int2\", responseData.bookingid);\r",
+							"})\r",
+							"\r",
+							"pm.test(\"TC1 - Verify that firstname is as expected\", function (){\r",
+							"\r",
+							"    var responseData = pm.response.json();\r",
+							"    var firstName = responseData.booking.firstname;\r",
+							"    pm.expect(firstName).to.equal(\"Jim\");\r",
+							"\r",
+							"})\r",
+							"\r",
+							"pm.test(\"TC2 - Verify checking is as expected\", function(){\r",
+							"\r",
+							"    var responseData = pm.response.json();\r",
+							"    var check_in = responseData.booking.bookingdates.checkin;\r",
+							"\r",
+							"    pm.expect (check_in).to.equal(\"2018-01-01\")\r",
+							"\r",
+							"    pm.expect(responseData).to.have.property('bookingid');\r",
+							"\r",
+							"})\r",
+							"\r",
+							"pm.test(\"TC3 - Verify booking null is not expected\", function(){\r",
+							"\r",
+							"    var responseData = pm.response.json();\r",
+							"    var bookingid = responseData.bookingid;\r",
+							"\r",
+							"    pm.expect(bookingid).not.to.equal (null);\r",
+							"\r",
+							"    pm.expect(responseData).to.have.property('bookingid');\r",
+							"\r",
+							"})\r",
+							"\r",
+							"var schema = {\r",
+							"\r",
+							"    \r",
+							"    \"type\": \"object\",\r",
+							"    \"required\": [\r",
+							"        \"bookingid\",\r",
+							"        \"booking\"\r",
+							"    ],\r",
+							"    \"additionalProperties\": true,\r",
+							"    \"properties\": {\r",
+							"        \"bookingid\": {\r",
+							"            \"type\": \"number\"\r",
+							"        },\r",
+							"        \"booking\": {\r",
+							"            \"type\": \"object\",\r",
+							"            \"required\": [\r",
+							"                \"firstname\",\r",
+							"                \"lastname\",\r",
+							"                \"totalprice\",\r",
+							"                \"depositpaid\",\r",
+							"                \"bookingdates\",\r",
+							"                \"additionalneeds\"\r",
+							"            ],\r",
+							"            \"additionalProperties\": true,\r",
+							"            \"properties\": {\r",
+							"                \"firstname\": {\r",
+							"                    \"type\": \"string\"\r",
+							"                },\r",
+							"                \"lastname\": {\r",
+							"                    \"type\": \"string\"\r",
+							"                },\r",
+							"                \"totalprice\": {\r",
+							"                    \"type\": \"number\"\r",
+							"                },\r",
+							"                \"depositpaid\": {\r",
+							"                    \"type\": \"boolean\"\r",
+							"                },\r",
+							"                \"bookingdates\": {\r",
+							"                    \"type\": \"object\",\r",
+							"                    \"required\": [\r",
+							"                        \"checkin\",\r",
+							"                        \"checkout\"\r",
+							"                    ],\r",
+							"                    \"additionalProperties\": true,\r",
+							"                    \"properties\": {\r",
+							"                        \"checkin\": {\r",
+							"                            \"type\": \"string\"\r",
+							"                        },\r",
+							"                        \"checkout\": {\r",
+							"                            \"type\": \"string\"\r",
+							"                        }\r",
+							"                    }\r",
+							"                },\r",
+							"                \"additionalneeds\": {\r",
+							"                    \"type\": \"string\"\r",
+							"                }\r",
+							"            }\r",
+							"        }\r",
+							"    }\r",
+							"}\r",
+							"\r",
+							"\r",
+							"pm.test('Schema is valid', function () {\r",
+							"\r",
+							"    var responseData = pm.response.json();\r",
+							"\r",
+							"    pm.expect(tv4.validate(responseData, schema)).to.be.true;\r",
+							"});\r",
+							"\r",
+							"\r",
+							"\r",
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"_postman_id": "6fa9094b-c9df-40e9-949b-7e12ea214802",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"firstname\" : \"Jim\",\r\n    \"lastname\" : \"Brown\",\r\n    \"totalprice\" : 111,\r\n    \"depositpaid\" : true,\r\n    \"bookingdates\" : {\r\n        \"checkin\" : \"2018-01-01\",\r\n        \"checkout\" : \"2019-01-01\"\r\n    },\r\n    \"additionalneeds\" : \"Breakfast\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "{{url}}/booking"
+			},
+			"response": []
+		},
+		{
+			"name": "Negative_1 - CreateBooking",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "1841338b-90a1-481f-8153-38f0f2160946",
+						"exec": [
+							"pm.test(\"Status code is 500\", function () {\r",
+							"    pm.response.to.have.status(500);\r",
+							"});\r",
+							"\r",
+							"\r",
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"_postman_id": "aa10d717-b36c-4888-b61e-c12c841b1026",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "{{url}}/booking"
+			},
+			"response": []
+		},
+		{
+			"name": "Negative_2 - CreateBooking",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "1841338b-90a1-481f-8153-38f0f2160946",
+						"exec": [
+							"pm.test(\"Status code is 500\", function () {\r",
+							"    pm.response.to.have.status(500);\r",
+							"});\r",
+							"\r",
+							"\r",
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"_postman_id": "7fed898f-c737-4edf-9d5d-808ed6379946",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "text"
+						}
+					}
+				},
+				"url": "{{url}}/booking"
+			},
+			"response": []
+		},
+		{
+			"name": "Negative_3 - CreateBooking",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "1841338b-90a1-481f-8153-38f0f2160946",
+						"exec": [
+							"pm.test(\"Status code is 500\", function () {\r",
+							"    pm.response.to.have.status(500);\r",
+							"});\r",
+							"\r",
+							"\r",
+							"pm.test(\"Your test name\", function () {\r",
+							"    var jsonData = pm.response.json();\r",
+							"    pm.expect(jsonData.value).to.eql(100);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"_postman_id": "af36a798-c2ce-440e-af98-cf3b7b8e45d4",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "text"
+						}
+					}
+				},
+				"url": "{{url}}/booking"
+			},
+			"response": []
+		},
+		{
+			"name": "CreateToken",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "bd8f247f-aeda-49e6-8ecf-cd96369d1939",
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});\r",
+							"pm.test(\"Response time is less than 1200ms\", function () {\r",
+							"    pm.expect(pm.response.responseTime).to.be.below(1200);\r",
+							"});\r",
+							"pm.test(\"Set the Token to a variable c_token2 with token\", function(){\r",
+							"\r",
+							"\r",
+							"    var responseData = pm.response.json();\r",
+							"    pm.collectionVariables.set(\"c_token2\", responseData [\"token\"]);\r",
+							"\r",
+							"});\r",
+							"\r",
+							"pm.test (\"Put the token into encirnment variable\", function (){\r",
+							"\r",
+							"    var responseData = pm.response.json();\r",
+							"    pm.environment.set (\"e_token_int2\", responseData.token);\r",
+							"\r",
+							"})\r",
+							"\r",
+							"pm.test(\"Token should not equal null\", function(){\r",
+							"\r",
+							"    var responseData = pm.response.json();\r",
+							"    var token = responseData.token;\r",
+							"\r",
+							"    pm.expect(token).not.to.equal (null);\r",
+							"\r",
+							"    pm.expect(responseData).to.have.property('token');\r",
+							"\r",
+							"})"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"_postman_id": "ee7eb491-07fb-4f31-9bab-61dc8a2e7899",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"username\" : \"admin\",\r\n    \"password\" : \"password123\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "{{url}}/auth"
+			},
+			"response": []
+		},
+		{
+			"name": "Negative_1 -  CreateToken",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "bd8f247f-aeda-49e6-8ecf-cd96369d1939",
+						"exec": [
+							"pm.test(\"Status code is 250\", function () {\r",
+							"    pm.response.to.have.status(250);\r",
+							"});\r",
+							"pm.test(\"Response time is less than 1200ms\", function () {\r",
+							"    pm.expect(pm.response.responseTime).to.be.below(1200);\r",
+							"});\r",
+							"pm.test(\"Set the Token to a variable c_token2 with token\", function(){\r",
+							"\r",
+							"\r",
+							"    var responseData = pm.response.json();\r",
+							"    pm.collectionVariables.set(\"c_token2\", responseData [\"token\"]);\r",
+							"\r",
+							"});\r",
+							"\r",
+							"pm.test (\"Put the token into encirnment variable\", function (){\r",
+							"\r",
+							"    var responseData = pm.response.json();\r",
+							"    pm.environment.set (\"e_token_int2\", responseData.token);\r",
+							"\r",
+							"})\r",
+							"\r",
+							"pm.test(\"Token should not equal null\", function(){\r",
+							"\r",
+							"    var responseData = pm.response.json();\r",
+							"    var token = responseData.token;\r",
+							"\r",
+							"    pm.expect(token).not.to.equal (null);\r",
+							"\r",
+							"    pm.expect(responseData).to.have.property('token');\r",
+							"\r",
+							"})"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"_postman_id": "a2e9e31b-caae-45de-8e88-9d5b39fed9a8",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"username\" : \"admin\",\r\n    \"password\" : \"password123\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "{{url}}/auth"
+			},
+			"response": []
+		},
+		{
+			"name": "Negative_2 - CreateToken",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "bd8f247f-aeda-49e6-8ecf-cd96369d1939",
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});\r",
+							"pm.test(\"Response time is less than 20ms\", function () {\r",
+							"    pm.expect(pm.response.responseTime).to.be.below(20);\r",
+							"});\r",
+							"pm.test(\"Set the Token to a variable c_token2 with token\", function(){\r",
+							"\r",
+							"\r",
+							"    var responseData = pm.response.json();\r",
+							"    pm.collectionVariables.set(\"c_token2\", responseData [\"token\"]);\r",
+							"\r",
+							"});\r",
+							"\r",
+							"pm.test (\"Put the token into encirnment variable\", function (){\r",
+							"\r",
+							"    var responseData = pm.response.json();\r",
+							"    pm.environment.set (\"e_token_int2\", responseData.token);\r",
+							"\r",
+							"})\r",
+							"\r",
+							"pm.test(\"Token should not equal null\", function(){\r",
+							"\r",
+							"    var responseData = pm.response.json();\r",
+							"    var token = responseData.token;\r",
+							"\r",
+							"    pm.expect(token).not.to.equal (null);\r",
+							"\r",
+							"    pm.expect(responseData).to.have.property('token');\r",
+							"\r",
+							"})"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"_postman_id": "3edb36aa-eb03-4b91-be3a-144613a21986",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"username\" : \"admin\",\r\n    \"password\" : \"password123\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "{{url}}/auth"
+			},
+			"response": []
+		},
+		{
+			"name": "Negative_3 - CreateToken",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "bd8f247f-aeda-49e6-8ecf-cd96369d1939",
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});\r",
+							"pm.test(\"Response time is less than 1200ms\", function () {\r",
+							"    pm.expect(pm.response.responseTime).to.be.below(1200);\r",
+							"});\r",
+							"pm.test(\"Set the Token to a variable c_token2 with token\", function(){\r",
+							"\r",
+							"\r",
+							"    var responseData = pm.response.json();\r",
+							"    pm.collectionVariables.set(\"c_token2\", responseData [\"token\"]);\r",
+							"\r",
+							"});\r",
+							"\r",
+							"pm.test (\"Put the token into encirnment variable\", function (){\r",
+							"\r",
+							"    var responseData = pm.response.json();\r",
+							"    pm.environment.set (\"e_token_int2\", responseData.token);\r",
+							"\r",
+							"})\r",
+							"\r",
+							"pm.test(\"Token should not equal null\", function(){\r",
+							"\r",
+							"    var responseData = pm.response.json();\r",
+							"    var token = responseData.token;\r",
+							"\r",
+							"    pm.expect(token).not.to.equal (null);\r",
+							"\r",
+							"    pm.expect(responseData).to.have.property('token');\r",
+							"\r",
+							"})"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"_postman_id": "d57df2d9-e719-4ec9-8e91-e22f7ea07a23",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"username\" : \"admin\",\r\n    \"password\" : \"password123\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "text"
+						}
+					}
+				},
+				"url": "{{url}}/auth"
+			},
+			"response": []
+		},
+		{
+			"name": "Create Auth",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "f4078649-c301-4426-9a10-1822fd681bc2",
+						"exec": [
+							"pm.test(\"Check Token is not null\",function(){",
+							"    pm.expect(pm.response.json()[\"Token\"]).not.to.be.null;",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"_postman_id": "6320012c-8470-41be-8654-357158444dd1",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"username\" : \"admin\",\r\n    \"password\" : \"password123\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "{{url}}/auth"
+			},
+			"response": []
+		},
+		{
+			"name": "Negative_1 - CreateAuth",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "f4078649-c301-4426-9a10-1822fd681bc2",
+						"exec": [
+							"pm.test(\"Check Token is not null\",function(){",
+							"    pm.expect(pm.response.json()[\"Token\"]).not.to.be.null;",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"_postman_id": "c9cad39f-9c2b-4fff-8f55-593e8e3ff8c9",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"username\" : \"admin\",\r\n    \"password\" : \"password123\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "{{url}}/auth"
+			},
+			"response": []
+		},
+		{
+			"name": "Negative_2 - CreateAuth",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "f4078649-c301-4426-9a10-1822fd681bc2",
+						"exec": [
+							"pm.test(\"Check Token is not null\",function(){",
+							"    pm.expect(pm.response.json()[\"Token\"]).not.to.be.null;",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"_postman_id": "7db773a8-7ff3-45a8-9cb7-5c0c141e7441",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"username\" : \"admin\",\r\n    \"password\" : \"password123\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "{{url}}/auth"
+			},
+			"response": []
+		},
+		{
+			"name": "Negative_3 - CreateAuth",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "f4078649-c301-4426-9a10-1822fd681bc2",
+						"exec": [
+							"pm.test(\"Check Token is not null\",function(){",
+							"    pm.expect(pm.response.json()[\"Token\"]).not.to.be.null;",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"_postman_id": "a960259f-3733-4a2b-b12b-559e9240b73a",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"username\" : \"admin\",\r\n    \"password\" : \"password123\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "{{url}}/auth"
+			},
+			"response": []
+		},
+		{
+			"name": "UpdateWithoutAuth",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "b9b80a8c-1f05-456d-a5bc-a267f22a799e",
+						"exec": [
+							"pm.test(\"No Entry without Auth,Status code is 403 Forbidden\", function () {\r",
+							"    pm.response.to.have.status(403);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"_postman_id": "bbca372c-88a8-4e4f-b261-aa4623fbbda8",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Accept",
+						"value": "application/json"
+					},
+					{
+						"key": "Cookie",
+						"value": "token=6d1f5c03348f5af",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"firstname\" : \"James\",\n    \"lastname\" : \"Brown\",\n    \"totalprice\" : 111,\n    \"depositpaid\" : true,\n    \"bookingdates\" : {\n        \"checkin\" : \"2018-01-01\",\n        \"checkout\" : \"2019-01-01\"\n    },\n    \"additionalneeds\" : \"Breakfast\"\n}",
+					"options": {}
+				},
+				"url": "{{url}}/booking/{{g_bookingid}}"
+			},
+			"response": []
+		},
+		{
+			"name": "Negative_1 - UpdateWithoutAuth",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "b9b80a8c-1f05-456d-a5bc-a267f22a799e",
+						"exec": [
+							"pm.test(\"No Entry without Auth,Status code is 403 Forbidden\", function () {\r",
+							"    pm.response.to.have.status(403);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"_postman_id": "47141310-4fbb-41c7-b518-48019cf40841",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Accept",
+						"value": "application/json"
+					},
+					{
+						"key": "Cookie",
+						"value": "token=6d1f5c03348f5af",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"firstname\" : \"James\",\n    \"lastname\" : \"Brown\",\n    \"totalprice\" : 111,\n    \"depositpaid\" : true,\n    \"bookingdates\" : {\n        \"checkin\" : \"2018-01-01\",\n        \"checkout\" : \"2019-01-01\"\n    },\n    \"additionalneeds\" : \"Breakfast\"\n}",
+					"options": {}
+				},
+				"url": "{{url}}/booking/{{g_bookingid}}"
+			},
+			"response": []
+		},
+		{
+			"name": "Negative_1 - UpdateWithoutAuth",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "b9b80a8c-1f05-456d-a5bc-a267f22a799e",
+						"exec": [
+							"pm.test(\"No Entry without Auth,Status code is 403 Forbidden\", function () {\r",
+							"    pm.response.to.have.status(403);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"_postman_id": "b78c8dab-7507-4943-92d5-5f108b267948",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Accept",
+						"value": "application/json"
+					},
+					{
+						"key": "Cookie",
+						"value": "token=6d1f5c03348f5af",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"firstname\" : \"James\",\n    \"lastname\" : \"Brown\",\n    \"totalprice\" : 111,\n    \"depositpaid\" : true,\n    \"bookingdates\" : {\n        \"checkin\" : \"2018-01-01\",\n        \"checkout\" : \"2019-01-01\"\n    },\n    \"additionalneeds\" : \"Breakfast\"\n}",
+					"options": {}
+				},
+				"url": "{{url}}/booking/{{g_bookingid}}"
+			},
+			"response": []
+		},
+		{
+			"name": "Negative_1 - UpdateWithoutAuth",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "b9b80a8c-1f05-456d-a5bc-a267f22a799e",
+						"exec": [
+							"pm.test(\"No Entry without Auth,Status code is 403 Forbidden\", function () {\r",
+							"    pm.response.to.have.status(403);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"_postman_id": "752dc3cf-6d80-4ab8-bbdf-6a86a70960d2",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Accept",
+						"value": "application/json"
+					},
+					{
+						"key": "Cookie",
+						"value": "token=6d1f5c03348f5af",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"firstname\" : \"James\",\n    \"lastname\" : \"Brown\",\n    \"totalprice\" : 111,\n    \"depositpaid\" : true,\n    \"bookingdates\" : {\n        \"checkin\" : \"2018-01-01\",\n        \"checkout\" : \"2019-01-01\"\n    },\n    \"additionalneeds\" : \"Breakfast\"\n}",
+					"options": {}
+				},
+				"url": "{{url}}/booking/{{g_bookingid}}"
+			},
+			"response": []
+		},
+		{
+			"name": "UpdateBooking (Cookie)",
+			"_postman_id": "7cf034eb-0eb1-4eb9-9a40-44dd5fa0ceef",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Accept",
+						"value": "application/json"
+					},
+					{
+						"key": "Cookie",
+						"value": "token=6d1f5c03348f5af"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"firstname\" : \"James\",\n    \"lastname\" : \"Brown\",\n    \"totalprice\" : 111,\n    \"depositpaid\" : true,\n    \"bookingdates\" : {\n        \"checkin\" : \"2018-01-01\",\n        \"checkout\" : \"2019-01-01\"\n    },\n    \"additionalneeds\" : \"Breakfast\"\n}",
+					"options": {}
+				},
+				"url": "{{url}}/booking/{{g_bookingid}}"
+			},
+			"response": []
+		},
+		{
+			"name": "Negative_1 - UpdateBooking (Cookie)",
+			"_postman_id": "d40ade45-b08a-4885-8cf3-7c5675daba4a",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Accept",
+						"value": "application/json"
+					},
+					{
+						"key": "Cookie",
+						"value": "token=6d1f5c03348f5af"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"firstname\" : \"James\",\n    \"lastname\" : \"Brown\",\n    \"totalprice\" : 111,\n    \"depositpaid\" : true,\n    \"bookingdates\" : {\n        \"checkin\" : \"2018-01-01\",\n        \"checkout\" : \"2019-01-01\"\n    },\n    \"additionalneeds\" : \"Breakfast\"\n}",
+					"options": {}
+				},
+				"url": "{{url}}/booking/{{g_bookingid}}"
+			},
+			"response": []
+		},
+		{
+			"name": "Negative_2 - UpdateBooking (Cookie)",
+			"_postman_id": "198cf5eb-af2d-4066-9d1d-17e53b622c6d",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Accept",
+						"value": "application/json"
+					},
+					{
+						"key": "Cookie",
+						"value": "token=6d1f5c03348f5af"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"firstname\" : \"James\",\n    \"lastname\" : \"Brown\",\n    \"totalprice\" : 111,\n    \"depositpaid\" : true,\n    \"bookingdates\" : {\n        \"checkin\" : \"2018-01-01\",\n        \"checkout\" : \"2019-01-01\"\n    },\n    \"additionalneeds\" : \"Breakfast\"\n}",
+					"options": {}
+				},
+				"url": "{{url}}/booking/{{g_bookingid}}"
+			},
+			"response": []
+		},
+		{
+			"name": "Negative_3 - UpdateBooking (Cookie)",
+			"_postman_id": "0823bbdd-c51d-47a5-ba04-f7f05b585a4f",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Accept",
+						"value": "application/json"
+					},
+					{
+						"key": "Cookie",
+						"value": "token=6d1f5c03348f5af"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"firstname\" : \"James\",\n    \"lastname\" : \"Brown\",\n    \"totalprice\" : 111,\n    \"depositpaid\" : true,\n    \"bookingdates\" : {\n        \"checkin\" : \"2018-01-01\",\n        \"checkout\" : \"2019-01-01\"\n    },\n    \"additionalneeds\" : \"Breakfast\"\n}",
+					"options": {}
+				},
+				"url": "{{url}}/booking/{{g_bookingid}}"
+			},
+			"response": []
+		},
+		{
+			"name": "DeleteBooking",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "2588c29a-afe0-4b0b-b790-e3b21eeec378",
+						"exec": [
+							"pm.test(\"Response time is less than 1200ms\", function () {\r",
+							"    pm.expect(pm.response.responseTime).to.be.below(1200);\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Status code is 405\", function () {\r",
+							"    pm.response.to.have.status(405);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"_postman_id": "5c33a1b5-c148-43fa-aab6-cf71344aed5f",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Cookie",
+						"value": "token = 74eb7c9c4445974",
+						"type": "text"
+					},
+					{
+						"key": "Authorization",
+						"value": "Basic YWRtaW46cGFzc3dvcmQxMjM=",
+						"type": "text"
+					}
+				],
+				"url": "{{url}}/booking/{{e_bookingId.int2}}"
+			},
+			"response": []
+		},
+		{
+			"name": "Negative_1 - DeleteBooking",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "2588c29a-afe0-4b0b-b790-e3b21eeec378",
+						"exec": [
+							"pm.test(\"Response time is less than 1200ms\", function () {\r",
+							"    pm.expect(pm.response.responseTime).to.be.below(1200);\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Status code is 403\", function () {\r",
+							"    pm.response.to.have.status(403);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"_postman_id": "9cdcd2a0-9c63-40cb-a855-9968555aceb5",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Cookie",
+						"value": "token={{e_token_int2}}",
+						"type": "text"
+					}
+				],
+				"url": "{{url}}/booking/{{e_bookingId.int2}}"
+			},
+			"response": []
+		},
+		{
+			"name": "Negative_1 - DeleteBooking",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "2588c29a-afe0-4b0b-b790-e3b21eeec378",
+						"exec": [
+							"pm.test(\"Response time is less than 1200ms\", function () {\r",
+							"    pm.expect(pm.response.responseTime).to.be.below(1200);\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Status code is 403\", function () {\r",
+							"    pm.response.to.have.status(403);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"_postman_id": "817572c7-42c4-4d3a-9adf-5fa6b38b90b3",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Cookie",
+						"value": "token={{e_token_int2}}",
+						"type": "text"
+					}
+				],
+				"url": "{{url}}/booking/{{e_bookingId.int2}}"
+			},
+			"response": []
+		},
+		{
+			"name": "Negative_1 - DeleteBooking",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "2588c29a-afe0-4b0b-b790-e3b21eeec378",
+						"exec": [
+							"pm.test(\"Response time is less than 1200ms\", function () {\r",
+							"    pm.expect(pm.response.responseTime).to.be.below(1200);\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Status code is 403\", function () {\r",
+							"    pm.response.to.have.status(403);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"_postman_id": "6d3860f7-42bf-416b-9779-ade0c6fb5d05",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Cookie",
+						"value": "token={{e_token_int2}}",
+						"type": "text"
+					}
+				],
+				"url": "{{url}}/booking/{{e_bookingId.int2}}"
+			},
+			"response": []
+		}
+	],
+	"variable": [
+		{
+			"id": "ae0e3c62-ab81-450a-896a-d40f314bd993",
+			"key": "c_token2",
+			"value": "",
+			"type": "string"
+		}
+	]
+}
