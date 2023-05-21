@@ -8,11 +8,18 @@
 
 <details>
 <summary>Examples of My Work</summary> 
+ 
 <br>
+ 
 <a href="https://github.com/zwaiters/Portfolio/blob/main/Postman%20Collections/Restful-booker.json">Postman - Restful_booker</a>
+ 
+ 
+  * [Test cases in Jira](#test-cases-in-jira)
+ 
+ 
 </details>
 
-  * [Test cases in Jira](#test-cases-in-jira)
+  
   
 
 ## About Me
@@ -102,7 +109,7 @@ __Mind maps & diagrams__
 ### Postman
 
 - [Restful-booker](https://restful-booker.herokuapp.com/apidoc/index.html#api-Auth) was used to create test cases.
-  * [Test Case Report via Newman](file:///C:/Users/zaveo/Downloads/postmanrestful/newman/Restful-booker_booking-2023-05-21-12-48-13-558-0.html)
+ * <a href="file:///C:/Users/zaveo/Downloads/postmanrestful/newman/Restful-booker_booking-2023-05-21-12-48-13-558-0.html">Test Case Report via Newman</a>
   * Test case for checking the addition of items to the cart (in English). Check [the Google Sheets document here](https://docs.google.com/spreadsheets/d/1PTc-aPCKWBm4B3aaTPsvJ5wgW0P-KkpvaclZAbQzTZY/edit#gid=0)
 
 - [The training webpage Enotes](https://enotes.pointschool.ruin) was used for working with TestRail.
