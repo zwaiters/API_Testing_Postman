@@ -1,5 +1,3 @@
-# Hi, I'm Zaveon 👋🏾 
-
 <img src = "https://github.com/zwaiters/Portfolio/blob/main/Software%20Tester.png">
 
 # Portfolio
@@ -8,7 +6,6 @@
 - [CV](#cv)
 - [Skills](#skills)
 - [Tools](#tools)
-- [Courses](#courses)
 
 <details>
 <summary>Examples of My Work</summary> 
