@@ -1,6 +1,6 @@
 # Hi, I'm Zaveon 👋🏾 
 
-<img src = "https://photos.google.com/photo/AF1QipNq9zFZK_36Jr0UeuZ1ucIVGcWgpuEFXQ31KyU6">
+<img src = "https://github.com/zwaiters/Portfolio/blob/main/Software%20Tester.png">
 
 # Portfolio
 
