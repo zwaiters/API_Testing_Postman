@@ -100,18 +100,16 @@ __Trello and Notion__
 __Mind maps & diagrams__
   * know how to design beautifully simple mind maps
 
-## Courses
-
-
 
 ## Examples of My Work
 
-### Postman
+## Postman
 
-- [Restful-booker](https://restful-booker.herokuapp.com/apidoc/index.html#api-Auth) was used to create test cases.
- * <a href="https://github.com/zwaiters/Portfolio/blob/main/Postman%20Collections/Restful-booker.json">Test Case</a>
- * <a href="https://photos.google.com/photo/AF1QipPt0K_BZOvng19kruuN3u-KP3reefyeDsJARXE_">Test Case Report_Newman</a>
- 
+[Restful-booker](https://restful-booker.herokuapp.com/apidoc/index.html#api-Auth) was used to create test cases.
+  - <a href="https://api.postman.com/collections/25807910-e1fe3071-c802-4079-b25f-048fc3ac919b?access_key=PMAT-01H0Z4BKG16075S2V8NX7M0S6T">Postman Link</a>  
+  - <a href="https://github.com/zwaiters/Portfolio/blob/main/Postman%20Collections/Restful-booker.json">Test Case</a>
+  - <a href="https://photos.google.com/photo/AF1QipPt0K_BZOvng19kruuN3u-KP3reefyeDsJARXE_">Test Case Report_Newman</a>
+
 
 - [The training webpage Enotes](https://enotes.pointschool.ruin) was used for working with TestRail.
   * Test case (in Russian) for authorisation. Check [the screenshot from TestRail here](https://drive.google.com/file/d/1X9q5h3NKLI7NZpoU-gaHwSrYq_KQtDsl/view?usp=sharing).
