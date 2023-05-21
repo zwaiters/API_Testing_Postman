@@ -1,6 +1,6 @@
 # Portfolio
 
-- [About me](#about-me)
+- [About Me](#about-me)
 - [CV](#cv)
 - [Skills](#skills)
 - [Tools](#tools)
@@ -9,7 +9,7 @@
 <details>
 <summary>Examples of My Work</summary> 
 <br>
-[Postman API - Restful_booker](https://github.com/zwaiters/Portfolio/blob/main/Postman%20Collections/Restful-booker.json)
+<a href="https://github.com/zwaiters/Portfolio/blob/main/Postman%20Collections/Restful-booker.json">Postman - Restful_booker</a>
 </details>
 
   * [Test cases in Jira](#test-cases-in-jira)
@@ -68,10 +68,13 @@ __Python fundamentals__
 
 ## Tools
 
-__TestRail__
+__Postman__
   * know how to create test cases and test suits
   * able to run created test cases
   * know how to use dashboards and statistics
+
+__Newman__
+  
 
 __Jira__
   * know how to create bug reports
