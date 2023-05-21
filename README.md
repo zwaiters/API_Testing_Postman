@@ -4,7 +4,11 @@
 - [Skills](#skills)
 - [Tools](#tools)
 - [Courses](#courses)
-- [Examples of my work](#examples-of-my-work)
+<details>
+<summary>Examples of My Work</summary> 
+<br>
+[Postman API - Restful_booker](url)
+</details>
   * [Test cases and work in TestRail](#test-cases-and-work-in-testrail)
   
 
@@ -102,9 +106,9 @@ An intensive introductory course (20 h) to software testing. Quality Lab is one 
 
 ## Examples of my work
 
-### Test cases and work in TestRail
+### Postman
 
-- [The training webshop](http://automationpractice.com/) was used to create demo test cases
+- [Restful-booker](https://restful-booker.herokuapp.com/apidoc/index.html#api-Auth) was used to create test cases.
   * Test case for checking the checkout process (in English). Check [the Google Sheets document here](https://docs.google.com/spreadsheets/d/1NpgiyQr2mx2YKddbXOFi7YygWE_jUve3spzscLkpTuY/edit?usp=sharing)
   * Test case for checking the addition of items to the cart (in English). Check [the Google Sheets document here](https://docs.google.com/spreadsheets/d/1PTc-aPCKWBm4B3aaTPsvJ5wgW0P-KkpvaclZAbQzTZY/edit#gid=0)
 
