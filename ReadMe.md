@@ -1,6 +1,6 @@
 # Hi, I'm Zaveon 👋🏾 
 
-<img src = "https://github.com/zwaiters/Portfolio/blob/main/3d-illustration-education-tablet-with-education-icons-on-on-hi-tech-background-education-banner-vector.jpg">
+<img src = "https://photos.google.com/photo/AF1QipNq9zFZK_36Jr0UeuZ1ucIVGcWgpuEFXQ31KyU6">
 
 # Portfolio
 
