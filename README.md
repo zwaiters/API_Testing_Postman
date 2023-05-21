@@ -9,7 +9,7 @@
 <details>
 <summary>Examples of My Work</summary> 
 <br>
-[Postman API - Restful_booker]((https://github.com/zwaiters/Portfolio/blob/main/Postman%20Collections/Restful-booker.json))
+[Postman API - Restful_booker](https://github.com/zwaiters/Portfolio/blob/main/Postman%20Collections/Restful-booker.json)
 </details>
 
   * [Test cases in Jira](#test-cases-in-jira)
