@@ -1,15 +1,18 @@
 # Portfolio
+
 - [About me](#about-me)
 - [CV](#cv)
 - [Skills](#skills)
 - [Tools](#tools)
 - [Courses](#courses)
+
 <details>
 <summary>Examples of My Work</summary> 
 <br>
-[[Postman API - Restful_booker]](https://github.com/zwaiters/Portfolio/blob/main/Postman%20Collections/Restful-booker.json)
+[Postman API - Restful_booker]((https://github.com/zwaiters/Portfolio/blob/main/Postman%20Collections/Restful-booker.json))
 </details>
-  * [Test cases and work in TestRail](#test-cases-and-work-in-testrail)
+
+  * [Test cases in Jira](#test-cases-in-jira)
   
 
 ## About Me
