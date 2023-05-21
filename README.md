@@ -7,14 +7,16 @@
 <details>
 <summary>Examples of My Work</summary> 
 <br>
-[Postman API - Restful_booker](url)
+[[Postman API - Restful_booker]](https://github.com/zwaiters/Portfolio/blob/main/Postman%20Collections/Restful-booker.json)
 </details>
   * [Test cases and work in TestRail](#test-cases-and-work-in-testrail)
   
 
 ## About Me
 
-Greetings! I am Zaveon, an experienced software tester who has recently transitioned from manual testing to automation testing. With a passion for quality assurance and an eagerness to embrace new technologies, I have honed my skills to excel in the world of automated testing.
+Greetings! 
+
+I am Zaveon, an experienced software tester who has recently transitioned from manual testing to automation testing. With a passion for quality assurance and an eagerness to embrace new technologies, I have honed my skills to excel in the world of automated testing.
 
 In my previous role as a manual tester, I gained valuable insights into the intricacies of software testing methodologies, test case design, and bug reporting. I cultivated a meticulous approach to ensuring product quality and became proficient in various testing techniques, including functional, regression, and user acceptance testing.
 
