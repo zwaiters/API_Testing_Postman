@@ -1,5 +1,22 @@
 <img src = "https://github.com/zwaiters/Portfolio/blob/main/Software%20Tester.png">
 
+## 🌐 Socials
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/zaveon-waiters-385983103/) 
+[![Medium](https://img.shields.io/badge/Medium-12100E?logo=medium&logoColor=white)](https://medium.com/@w.zaveon21) 
+
+### 🧰 Languages and Tools
+
+<img align="left" alt="Jira" width="30px" style="padding-right:10px;" src="https://www.svgrepo.com/show/452241/jira.svg"/>
+<img align="left" alt="Postman" width="30px" style="padding-right:10px;" src="https://www.svgrepo.com/show/354202/postman-icon.svg"/> 
+<img align="left" alt="Npm" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/npm/npm-original-wordmark.svg"/>          
+<img align="left" alt="Java" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg"/>
+<img align="left" alt="NodeJS" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"/>
+<img align="left" alt="GitHub" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+
+
+<br/>
+
+
 # Portfolio
 
 - [About Me](#about-me)
@@ -20,19 +37,8 @@
   
   
 
-## About Me
-
-Greetings! 
-
-I am Zaveon, an experienced software tester who has recently transitioned from manual testing to automation testing. With a passion for quality assurance and an eagerness to embrace new technologies, I have honed my skills to excel in the world of automated testing.
-
-In my previous role as a manual tester, I gained valuable insights into the intricacies of software testing methodologies, test case design, and bug reporting. I cultivated a meticulous approach to ensuring product quality and became proficient in various testing techniques, including functional, regression, and user acceptance testing.
-
-As an automation tester, I am dedicated to continuously improving test processes and embracing emerging technologies that drive innovation in the field. My adaptability, strong problem-solving abilities, and attention to detail make me well-suited for handling complex testing challenges and delivering optimal solutions.
-
-I am excited about this new chapter in my career, where I can leverage my testing experience while embracing the power of automation to elevate the quality of software products. I am eager to contribute my skills, enthusiasm, and determination to drive excellence in automated testing and contribute to the success of your organization.
-
-Thanks for the read!
+# About Me
+Greetings!<br><br>I am Zaveon, an experienced software tester who has recently transitioned from manual testing to automation testing. With a passion for quality assurance and an eagerness to embrace new technologies, I have honed my skills to excel in the world of automated testing.<br><br>In my previous role as a manual tester, I gained valuable insights into the intricacies of software testing methodologies, test case design, and bug reporting. I cultivated a meticulous approach to ensuring product quality and became proficient in various testing techniques, including functional, regression, and user acceptance testing.<br><br>As an automation tester, I am dedicated to continuously improving test processes and embracing emerging technologies that drive innovation in the field. My adaptability, strong problem-solving abilities, and attention to detail make me well-suited for handling complex testing challenges and delivering optimal solutions.<br><br>I am excited about this new chapter in my career, where I can leverage my testing experience while embracing the power of automation to elevate the quality of software products. I am eager to contribute my skills, enthusiasm, and determination to drive excellence in automated testing and contribute to the success of your organization.<br><br>Thanks for the read!
 
 ## CV
 You can download my CV as [a PDF from my Google Drive](https://drive.google.com/file/d/11FJNgtF8fAgEQIFJ0aA9S9O8_6_7Jgp-/view?usp=sharing).
@@ -135,10 +141,7 @@ __Mind maps & diagrams__
 * Generating combinations for the form consisting of 3 fields, where possible values of the one field depend on the values of another field. See [the script for MS PICT](https://drive.google.com/file/d/1nRuFkKA2pXFHHFwfph0SuXq-2p22VLtD/view?usp=sharing) and [the results of the script execution](https://drive.google.com/file/d/1bKWMw8rqOy477JpRgfS8-koDd2jm3MEv/view?usp=sharing).
 * Generating combinations for the form consisting of 5 fields. See [the script for MS PICT](https://drive.google.com/file/d/1jG72-v808dXlvSxcC6EYkiaZNbZZTeIB/view?usp=sharing) and [the results of the script execution](https://drive.google.com/file/d/1WlKu_FRv-kSVPPoQlL-7wz6CXqr9f2bi/view?usp=sharing).
 
-## Books I have read
-__"Testing dot com"__ R.Savin 2017 (in Russian) - an excellent book for a very beginners. It explains the general goals and basic techniques in software testing.
 
-__"A Practitioner's Guide to Software Test Design"__ Lee Copeland 2004 - comprehensive explanation of the fundamental techniques and approaches used in software testing.
 
  
 
