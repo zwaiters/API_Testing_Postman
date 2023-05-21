@@ -103,7 +103,8 @@ __Mind maps & diagrams__
 
 ## Postman
 
-[Restful-booker](https://restful-booker.herokuapp.com/apidoc/index.html#api-Auth) was used to create test cases.
+#### The API testing project using Postman involves testing the RESTful API endpoints provided by the [Restful-booker](https://restful-booker.herokuapp.com/apidoc/index.html#api-Auth) resource. This includes creating a Postman collection of API endpoints, writing test scripts using Postman's testing framework to validate responses, and checking for errors, performance, and authentication. The Restful-booker resource provides a set of pre-built API endpoints that allow you to test and validate different aspects of a hotel booking application, such as creating and updating bookings, checking availability, and retrieving booking details.
+
   - <a href="https://api.postman.com/collections/25807910-e1fe3071-c802-4079-b25f-048fc3ac919b?access_key=PMAT-01H0Z4BKG16075S2V8NX7M0S6T">Postman Link</a>  
   - <a href="https://github.com/zwaiters/Portfolio/blob/main/Postman%20Collections/Restful-booker.json">Test Case</a>
   - <a href="https://photos.google.com/photo/AF1QipPt0K_BZOvng19kruuN3u-KP3reefyeDsJARXE_">Test Case Report_Newman</a>
@@ -139,12 +140,5 @@ __"Testing dot com"__ R.Savin 2017 (in Russian) - an excellent book for a very b
 
 __"A Practitioner's Guide to Software Test Design"__ Lee Copeland 2004 - comprehensive explanation of the fundamental techniques and approaches used in software testing.
 
-Postman API Testing - Restful-booker
+ 
 
-The API testing project using Postman involves testing the RESTful API endpoints provided by the "Restful-booker" resource. This includes creating a Postman collection of API endpoints, writing test scripts using Postman's testing framework to validate responses, and checking for errors, performance, and authentication. The Restful-booker resource provides a set of pre-built API endpoints that allow you to test and validate different aspects of a hotel booking application, such as creating and updating bookings, checking availability, and retrieving booking details. 
-
-Link - https://restful-booker.herokuapp.com/apidoc/index.html#api-Auth
-
-Newman Report
-
-![image](https://github.com/zwaiters/API_Testing_Postman/assets/128143254/f0b9cc33-ac09-4666-a241-f03eb07336e8)
