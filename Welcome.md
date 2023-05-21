@@ -109,8 +109,9 @@ __Mind maps & diagrams__
 ### Postman
 
 - [Restful-booker](https://restful-booker.herokuapp.com/apidoc/index.html#api-Auth) was used to create test cases.
- * [Test Case Report via Newman](file:///C:/Users/zaveo/Downloads/postmanrestful/newman/Restful-booker_booking-2023-05-21-12-48-13-558-0.html)
-  * Test case for checking the addition of items to the cart (in English). Check [the Google Sheets document here](https://docs.google.com/spreadsheets/d/1PTc-aPCKWBm4B3aaTPsvJ5wgW0P-KkpvaclZAbQzTZY/edit#gid=0)
+ * <a href="https://github.com/zwaiters/Portfolio/blob/main/Postman%20Collections/Restful-booker.json">Test Case</a>
+ * <a href="https://photos.google.com/photo/AF1QipPt0K_BZOvng19kruuN3u-KP3reefyeDsJARXE_">Test Case Report_Newman</a>
+ 
 
 - [The training webpage Enotes](https://enotes.pointschool.ruin) was used for working with TestRail.
   * Test case (in Russian) for authorisation. Check [the screenshot from TestRail here](https://drive.google.com/file/d/1X9q5h3NKLI7NZpoU-gaHwSrYq_KQtDsl/view?usp=sharing).
