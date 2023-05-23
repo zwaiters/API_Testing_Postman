@@ -23,19 +23,7 @@
 - [CV](#cv)
 - [Skills](#skills)
 - [Tools](#tools)
-
-<details>
-<summary>Examples of My Work</summary> 
- 
-<br>
- 
-<a href="https://github.com/zwaiters/Portfolio/blob/main/Postman%20Collections/Restful-booker.json">Postman - Restful_booker</a>
- 
- 
-</details>
-
-  
-  
+- [Examples of My Work](#examples-of-my-work)
 
 # About Me
 Greetings!<br><br>I am Zaveon, an experienced software tester who has recently transitioned from manual testing to automation testing. With a passion for quality assurance and an eagerness to embrace new technologies, I have honed my skills to excel in the world of automated testing.<br><br>In my previous role as a manual tester, I gained valuable insights into the intricacies of software testing methodologies, test case design, and bug reporting. I cultivated a meticulous approach to ensuring product quality and became proficient in various testing techniques, including functional, regression, and user acceptance testing.<br><br>As an automation tester, I am dedicated to continuously improving test processes and embracing emerging technologies that drive innovation in the field. My adaptability, strong problem-solving abilities, and attention to detail make me well-suited for handling complex testing challenges and delivering optimal solutions.<br><br>I am excited about this new chapter in my career, where I can leverage my testing experience while embracing the power of automation to elevate the quality of software products. I am eager to contribute my skills, enthusiasm, and determination to drive excellence in automated testing and contribute to the success of your organization.<br><br>Thanks for the read!
@@ -79,67 +67,30 @@ __Python fundamentals__
 
 ## Tools
 
-__Postman__
-  * know how to create test cases and test suits
-  * able to run created test cases
-  * know how to use dashboards and statistics
-
-__Newman__
-  
-
-__Jira__
-  * know how to create bug reports
-  * able to create projects and track their progress
-
-__SoapUI__
-
-__Browser developer tools__
-
-__VirtualBox__
-  * able to set up and operate virtual machines
-
-__Trello and Notion__
-  * know how to use Kanban boards and track project progress
-
-__Mind maps & diagrams__
-  * know how to design beautifully simple mind maps
 
 
 ## Examples of My Work
 
-## Postman
+<details>
+<summary>Postman</summary> 
+ 
+<br>
 
 #### The API testing project using Postman involves testing the RESTful API endpoints provided by the [Restful-booker](https://restful-booker.herokuapp.com/apidoc/index.html#api-Auth) resource. This includes creating a Postman collection of API endpoints, writing test scripts using Postman's testing framework to validate responses, and checking for errors, performance, and authentication. The Restful-booker resource provides a set of pre-built API endpoints that allow you to test and validate different aspects of a hotel booking application, such as creating and updating bookings, checking availability, and retrieving booking details.
+ 
 
   - <a href="https://api.postman.com/collections/25807910-e1fe3071-c802-4079-b25f-048fc3ac919b?access_key=PMAT-01H0Z4BKG16075S2V8NX7M0S6T">Postman Link</a>  
   - <a href="https://github.com/zwaiters/Portfolio/blob/main/Postman%20Collections/Restful-booker.json">Test Case</a>
   - <a href="https://photos.google.com/photo/AF1QipPt0K_BZOvng19kruuN3u-KP3reefyeDsJARXE_">Test Case Report_Newman</a>
 
-
+</details>
 - [The training webpage Enotes](https://enotes.pointschool.ruin) was used for working with TestRail.
   * Test case (in Russian) for authorisation. Check [the screenshot from TestRail here](https://drive.google.com/file/d/1X9q5h3NKLI7NZpoU-gaHwSrYq_KQtDsl/view?usp=sharing).
   * Test case (in Russian) for adding an item to the cart. See [the screenshot from TestRail here](https://drive.google.com/file/d/1L74DBG62BRnl45WuVYsuR3RoYU4KZHrI/view?usp=sharing).
   * Test suits and a test run for the cart. See [the screenshots from TestRail here](https://drive.google.com/file/d/1imQyEHdDE9FCWtnnPZurh0J9QMTWrS3l/view?usp=sharing).
 
 
-### Bug reports and work in Jira
 
-- Several bugs found on [the training webpage Loan Calculator](http://creditcalculator.pointschool.ru) and reported:
-  * Bug #1. Check [the screenshot of the bug report in Jira](https://drive.google.com/file/d/1Ypqw992_r6YgXNdqslH1FVW3Y33sT6ip/view?usp=sharing).
-  * Bug #2. Check [the screenshot of the bug report in Jira](https://drive.google.com/file/d/15KB2fIqWO4uIUbAMejk8ZZrkpPfJzz1m/view?usp=sharing).
-  * Bug #3. Check [the screenshot of the bug report in Jira](https://drive.google.com/file/d/1Qn_Fe5gwdEQ-f4PKpg115CZaWl3_N705/view?usp=sharing).
-* An example of a project in Jira. Check [the screenshot](https://drive.google.com/file/d/1uN7R4SGWYZ0zn45id8_CeSzs4sn68BWq/view?usp=sharing).
-
-### Mindmaps and diagrams
-* Functional decomposition of [the training webpage Loan Calculator](http://creditcalculator.pointschool.ru). Check [the mindmap](https://drive.google.com/file/d/1i1O25CTJNYbuZAmigsRFJjPzUhbRJduY/view?usp=sharing).
-* State-transition diagram of the loan application at [the training webpage Loan Calculator](http://creditcalculator.pointschool.ru). Check [the diagram](https://drive.google.com/file/d/1yr1i_gvkTDtbw-ZZF9I_o5CKQZuc2KWG/view?usp=sharing).
-* Decomposition of an online converter of text documents to PDF using actions-parameters-values. Check [the diagram](https://drive.google.com/file/d/1gbBCBGNyRJhp0DhFgFbpxrb9F2Zd5LnH/view?usp=sharing).
-* Mindmap of the interfaces of [the training webpage Enotes](https://enotes.pointschool.ruin). Check [the mindmap](https://drive.google.com/file/d/1gzv3ADI2_tm_Of0rk_gZDZ1niW50w4oc/view?usp=sharing).
-
-### Scripts for PICT (pairwise testing)
-
-* Generating combinations for the form consisting of 3 fields, where possible values of the one field depend on the values of another field. See [the script for MS PICT](https://drive.google.com/file/d/1nRuFkKA2pXFHHFwfph0SuXq-2p22VLtD/view?usp=sharing) and [the results of the script execution](https://drive.google.com/file/d/1bKWMw8rqOy477JpRgfS8-koDd2jm3MEv/view?usp=sharing).
-* Generating combinations for the form consisting of 5 fields. See [the script for MS PICT](https://drive.google.com/file/d/1jG72-v808dXlvSxcC6EYkiaZNbZZTeIB/view?usp=sharing) and [the results of the script execution](https://drive.google.com/file/d/1WlKu_FRv-kSVPPoQlL-7wz6CXqr9f2bi/view?usp=sharing).
 
 
 
