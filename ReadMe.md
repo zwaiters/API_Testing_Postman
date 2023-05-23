@@ -1,10 +1,14 @@
 <img src = "https://github.com/zwaiters/Portfolio/blob/main/Software%20Tester2.png">
 
-## 🌐 Socials
+<br>
+
+# 🌐 Socials
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/zaveon-waiters-385983103/) 
 [![Medium](https://img.shields.io/badge/Medium-12100E?logo=medium&logoColor=white)](https://medium.com/@w.zaveon21) 
 
-### 🧰 Languages and Tools
+<br>
+
+# 🧰 Languages and Tools
 
 <img align="left" alt="Jira" width="30px" style="padding-right:10px;" src="https://www.svgrepo.com/show/452241/jira.svg"/>
 <img align="left" alt="Postman" width="30px" style="padding-right:10px;" src="https://www.svgrepo.com/show/354202/postman-icon.svg"/> 
@@ -13,9 +17,7 @@
 <img align="left" alt="NodeJS" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"/>
 <img align="left" alt="GitHub" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
 
-
-<br/>
-
+<br>
 
 # Portfolio
 
@@ -23,14 +25,19 @@
 - [CV](#cv)
 - [Examples of My Work](#examples-of-my-work)
 
+<br>
+
 # About Me
 
 Greetings!<br><br>I am Zaveon, an experienced software tester who has recently transitioned from manual testing to automation testing. With a passion for quality assurance and an eagerness to embrace new technologies, I have honed my skills to excel in the world of automated testing.<br><br>In my previous role as a manual tester, I gained valuable insights into the intricacies of software testing methodologies, test case design, and bug reporting. I cultivated a meticulous approach to ensuring product quality and became proficient in various testing techniques, including functional, regression, and user acceptance testing.<br><br>As an automation tester, I am dedicated to continuously improving test processes and embracing emerging technologies that drive innovation in the field. My adaptability, strong problem-solving abilities, and attention to detail make me well-suited for handling complex testing challenges and delivering optimal solutions.<br><br>I am excited about this new chapter in my career, where I can leverage my testing experience while embracing the power of automation to elevate the quality of software products. I am eager to contribute my skills, enthusiasm, and determination to drive excellence in automated testing and contribute to the success of your organization.<br><br>Thanks for the read!
+
+<br>
 
 ## CV
 
 You can download my CV as [a PDF from my Google Drive](https://drive.google.com/file/d/11FJNgtF8fAgEQIFJ0aA9S9O8_6_7Jgp-/view?usp=sharing).
 
+<br>
 
 ## Examples of My Work
 
