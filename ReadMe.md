@@ -1,4 +1,4 @@
-<img src = "https://github.com/zwaiters/Portfolio/blob/main/Software%20Tester.png">
+<img src = "https://github.com/zwaiters/Portfolio/blob/main/Software%20Tester2.png">
 
 ## 🌐 Socials
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/zaveon-waiters-385983103/) 
