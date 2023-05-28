@@ -43,7 +43,7 @@ You can download my CV as [a PDF from my Google Drive](https://drive.google.com/
 ## Examples of My Work
 
 <details>
-<summary>Postman</summary> 
+<summary>Hotel Booking</summary> 
  
 <br>
 
