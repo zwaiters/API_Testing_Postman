@@ -56,9 +56,43 @@ You can download my CV as [a PDF from my Google Drive](https://drive.google.com/
  
 </details>
 
+<details>
+<summary>ATM Simulator</summary> 
+ 
+<br>
 
+#### 
+The ATM machine simulation code provides a virtual representation of an Automated Teller Machine, allowing users to perform banking transactions. The code is designed to mimic the functionality of a real ATM, providing a user-friendly interface to interact with. The code ensures the security and integrity of the transactions by validating user inputs, checking account balances, and updating them accordingly. Additionally, error handling mechanisms are implemented to handle exceptional scenarios, such as incorrect PINs, insufficient funds, or invalid inputs. The ATM machine simulation code provides a convenient and secure way for users to manage their accounts and perform banking operations in a virtual environment.
+ 
 
+  - <a href="https://github.com/zwaiters/ATM_Project/tree/main/src">ATM</a>  
+ 
+</details>
 
+<details>
+<summary>Email Administration Application</summary> 
+ 
+<br>
 
+#### 
+The email administration app code provides a comprehensive solution for managing email accounts. It offers a user-friendly interface that allows users to create and customize email accounts. The code includes features such as account creation, password generation, department assignment, and email address generation. Upon account creation, users are prompted to enter their first name, last name, and choose a department. The code automatically generates a unique email address for the user based on their name and department. It also generates a random password for the account to ensure security. The app allows users to set their mailbox capacity and alternate email address for forwarding. Users can also change their password or update their mailbox capacity as needed. The code ensures that all email accounts created through the app are unique and follow a standardized format. With its efficient and reliable functionality, the email administration app code simplifies the process of managing email accounts and ensures a seamless user experience.
+ 
+
+  - <a href="https://github.com/zwaiters/Administration_Project/tree/master/src">Administration Application</a>  
+ 
+</details>
+
+<details>
+<summary>Student Management</summary> 
+ 
+<br>
+
+#### 
+The student management app code is designed to streamline the process of managing student information within an educational institution. It provides a comprehensive solution for storing, organizing, and retrieving student data efficiently. The code allows administrators to create and manage student profiles by capturing essential details such as names, addresses, contact information, and academic information. It enables easy enrollment and registration of new students by automating the process and generating unique student IDs. The code also includes features to update student records, track attendance, and manage grades and academic performance. It provides functionalities for generating reports, such as class rosters, student transcripts, and progress reports. The code ensures data security and privacy by implementing proper access controls and user authentication mechanisms. It offers a user-friendly interface that simplifies navigation and makes it easy for administrators to perform tasks. Overall, the student management app code provides an efficient and centralized system for educational institutions to effectively manage student information, streamline administrative processes, and enhance communication with students and parents.
+ 
+
+  - <a href="https://github.com/zwaiters/StudentManagement_Project/tree/master/src">Student Management</a>  
+ 
+</details>
  
 
