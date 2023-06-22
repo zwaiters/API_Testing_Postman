@@ -70,7 +70,7 @@ The ATM machine simulation code provides a virtual representation of an Automate
 </details>
 
 <details>
-<summary>Email Administration Application</summary> 
+<summary>Email Administration</summary> 
  
 <br>
 
