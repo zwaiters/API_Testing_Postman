@@ -102,7 +102,7 @@ The student management app code is designed to streamline the process of managin
 This code demonstrates a simple healthcare management system implemented in Java. The system allows for the management of patients' information, scheduling appointments, billing patients, and processing copay or balance payments.
  
 
-  - <a href="https://github.com/zwaiters/StudantManagementSystem">Student Management System</a>  
+  - <a href="https://github.com/zwaiters/HealthcareManagementSystem">Student Management System</a>  
  
 </details>
  
