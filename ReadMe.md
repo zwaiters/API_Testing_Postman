@@ -83,7 +83,7 @@ The email administration app code provides a comprehensive solution for managing
 </details>
 
 <details>
-<summary>Student Management</summary> 
+<summary>Student Management System</summary> 
  
 <br>
 
@@ -91,7 +91,7 @@ The email administration app code provides a comprehensive solution for managing
 The student management app code is designed to streamline the process of managing student information within an educational institution. It provides a comprehensive solution for storing, organizing, and retrieving student data efficiently. The code allows administrators to create and manage student profiles by capturing essential details such as names, addresses, contact information, and academic information. It enables easy enrollment and registration of new students by automating the process and generating unique student IDs. The code also includes features to update student records, track attendance, and manage grades and academic performance. It provides functionalities for generating reports, such as class rosters, student transcripts, and progress reports. The code ensures data security and privacy by implementing proper access controls and user authentication mechanisms. It offers a user-friendly interface that simplifies navigation and makes it easy for administrators to perform tasks. Overall, the student management app code provides an efficient and centralized system for educational institutions to effectively manage student information, streamline administrative processes, and enhance communication with students and parents.
  
 
-  - <a href="https://github.com/zwaiters/StudentManagement_Project/tree/master/src">Student Management</a>  
+  - <a href="https://github.com/zwaiters/StudantManagementSystem">Student Management System</a>  
  
 </details>
  
