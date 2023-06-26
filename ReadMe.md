@@ -115,7 +115,7 @@ This code demonstrates a simple healthcare management system implemented in Java
 This code provides a basic implementation of a WiFi management system. It allows users to perform operations such as scanning available networks, displaying them, connecting to a network by providing the network name and password, disconnecting from the current network, and retrieving network information for the connected network. 
  
 
-  - <a href="https://github.com/zwaiters/WifiManager.java">Student Management System</a>  
+  - <a href="https://github.com/zwaiters/WifiNetworkSystems">Student Management System</a>  
  
 </details>
  
